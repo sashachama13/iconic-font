@@ -10,8 +10,7 @@
 
 html {
 	 box-sizing: border-box;
-
-    -moz-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
@@ -21,11 +20,42 @@ html {
  	box-sizing: inherit;
 }
 
-
-.wheat {
-	text-align:center;
-	margin:0 auto;
-	height: 100%;
+body {
+  	margin: 0;
+  	padding: 0;
+  	background: url("../images/background.jpg");
+	font-family: 'Droid Sans', sans-serif;
+	text-align:left;
+	color: #585757;
 }
 
+.wheat{
+  height: 300px;
+  width: 300px;
+  background: #eee;
+  position: absolute;
+  margin: -150px 0 0 -150px;
+  left: 50%;
+  top: 50%;
 }
+	 
+.btn{
+  height: 100px;
+  width: 100px;
+  background: #222;
+  position: absolute;
+	font-size: 5em;
+	padding: 0.7em 0.9em;
+	display: inline-block;
+	background-color: #FBFAF8;
+	border-radius: 50px;
+	box-shadow: 0 10px rgba(0,0,0,0.5);
+	color:#000000;
+	text-decoration: none;
+	}
+	
+.btn:hover {
+	background-color:#02D058;
+}
+	
+	

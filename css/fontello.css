@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'wheat';
-  src: url('font/wheat.eot?80204323');
-  src: url('font/wheat.eot?80204323#iefix') format('embedded-opentype'),
-       url('font/wheat.woff?80204323') format('woff'),
-       url('font/wheat.ttf?80204323') format('truetype'),
-       url('font/wheat.svg?80204323#wheat') format('svg');
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?10881859');
+  src: url('../font/fontello.eot?10881859#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?10881859') format('woff'),
+       url('../font/fontello.ttf?10881859') format('truetype'),
+       url('../font/fontello.svg?10881859#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +13,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'wheat';
-    src: url('../font/wheat.svg?80204323#wheat') format('svg');
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?10881859#fontello') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "wheat";
+  font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -50,4 +50,4 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-wheat-icon:before { content: '\e800'; } /* '' */
+.icon-wheat-icon:before { content: '\e800'; } /* '' */
