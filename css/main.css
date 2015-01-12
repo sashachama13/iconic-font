@@ -24,26 +24,18 @@ body {
   	margin: 0;
   	padding: 0;
   	background: url("../images/background.jpg");
-	font-family: 'Droid Sans', sans-serif;
-	text-align:left;
-	color: #585757;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #F59A0B;
+	text-align: center;
 }
 
-.wheat{
-  height: 300px;
-  width: 300px;
-  background: #eee;
-  position: absolute;
-  margin: -150px 0 0 -150px;
-  left: 50%;
-  top: 50%;
+.wrapper{
+	margin: 0 auto;
+	height:100%;
+	width: 100%;
 }
 	 
 .btn{
-  height: 100px;
-  width: 100px;
-  background: #222;
-  position: absolute;
 	font-size: 5em;
 	padding: 0.7em 0.9em;
 	display: inline-block;
@@ -58,4 +50,6 @@ body {
 	background-color:#02D058;
 }
 	
-	
+	h1{
+		font-size: 10em;
+		}
